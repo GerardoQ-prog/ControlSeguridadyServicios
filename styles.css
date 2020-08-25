@@ -248,6 +248,34 @@ body{
     }
   }
 
+  @media (max-width: 360px) {
+   
+    .navbar__logo{
+        width: 40%;
+    }
+
+    /* Servicios */
+    .nosotros__texto{
+        text-align: center;
+        color: #EE6950;
+        font-weight: 900;
+        font-size: 40px;
+    }
+    .vertical1{
+        width: 150px;
+        margin-left: 40px;
+    }
+    /* Productos */
+    .foto_producto{
+        margin: 5px;
+        width: 120px;
+        height: 120px;
+    }
+    .foto__nombre{
+        font-size: 20px;
+    }
+
+  }
   @media (max-width: 320px) {
    
     .navbar__logo{
